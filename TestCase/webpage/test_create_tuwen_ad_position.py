@@ -34,7 +34,7 @@ class LoginTest(unittest.TestCase):
         self.driver.quit()
 
 
-    def test_create_ad_position_01(self):
+    def test_create_tuwen_ad_position(self):
         now = time.strftime("%Y%m%d%H%M%S")
         #进入广告页面
         sleep(2)

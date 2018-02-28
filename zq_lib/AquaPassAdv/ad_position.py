@@ -13,6 +13,10 @@ class AdPostion(Basepage):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"贴片"按钮.')
         return self.find_element('css_selector=>div#adPos_adKind_tiepian')
+    def rec_word_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"字幕"按钮.')
+        return self.find_element('id=>adPos_adKind_subtitle')
          
     def click_picture_btn(self):
         self.click_ele(self.rec_picture_btn())
@@ -21,6 +25,10 @@ class AdPostion(Basepage):
     def click_video_btn(self):
         self.rec_video_btn().click()
         return Video(self.driver)
+
+    def click_word_btn(self):
+        self.rec_word_btn().click()
+        return Word(self.driver)
     
   
 class Picture(Basepage):
@@ -145,7 +153,7 @@ class Video(Basepage):
         return material_info 
     
 
-class word(Basepage):
+class Word(Basepage):
     def rec_create_btn(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"新建广告位"按钮.')
@@ -156,7 +164,7 @@ class word(Basepage):
         self.logger = logging.getLogger(__name__)
         self.click_ele(self.rec_create_btn())
         self.logger.debug(u'点击"新建广告位 "按钮.')
-        return CreateAdPostionForVideo(self.driver)
+        return CreateAdPositonForWord(self.driver)
 
 class CreateAdPostionForPicture(Basepage):
     def receive_ad_position_id_input(self):
@@ -351,4 +359,82 @@ class CreateAdPostionForVideo(Basepage):
         return Video(self.driver)
 
 class CreateAdPositonForWord(Basepage):
-   ...
+    def receive_ad_position_id_input(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"广告位ID"input.')
+        return self.find_element('css_selector=>input#adPos_dialog_ne_id')
+
+    def receive_ad_position_name_input(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"广告位名称"input.')
+        return self.find_element('css_selector=>input#adPos_dialog_ne_name')
+
+    def receive_ad_position_size_word(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"字体大小"input.')
+        return self.find_element('id=>adPos_dialog_ne_font_size')
+
+    def receive_ad_position_word_color(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"字体颜色"input.')
+        return self.find_element('id=>adPos_dialog_ne_font_color')
+
+    def receive_ad_position_upload_picture(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"广告背景图"input.')
+        return self.find_element('id=>adPos_dialog_ne_bgimg')
+
+    def receive_ad_position_picture_opacity(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"图片透明度"input.')
+        return self.find_element('id=>adPos_dialog_ne_opacity')
+
+    def receive_ad_position_num_limit(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"移动报告次数"input.')
+        return self.find_element('id=>adPos_dialog_ne_max_placement_count')
+
+    def receive_ad_position_long_move(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"移动步长"input.')
+        return self.find_element('id=>adPos_dialog_ne_move_step')
+
+    def receive_ad_position_move_interval(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"步长间隔时间"input.')
+        return self.find_element('id=>adPos_dialog_ne_move_interval')
+
+
+    def rec_upload_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到字幕广告位页面中"浏览"按钮.')
+        return self.find_element('id=>adPos_dialog_subtitle_bg_btn')
+
+    def click_upload(self):
+        self.rec_upload_btn().click()
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'点击字幕广告位页面中"浏览"按钮.')
+
+    def rec_new_create_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到新建广告位页面中"新建"按钮.')
+        return self.find_element('css_selector=>div#adPos_dialog_ne_submit')
+
+    def rec_cancel_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到新建广告位页面中"取消"按钮.')
+        return self.find_element('css_selector=>div#adPos_dialog_ne_cancel')
+
+    def click_new_create_btn(self):
+        self.rec_new_create_btn().click()
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'点击新建广告位页面中"新建"按钮.')
+        return Video(self.driver)
+
+    def click_cancel_btn(self):
+        self.rec_new_create_btn().click()
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'点击新建广告位页面中"取消"按钮.')
+        return Video(self.driver)
+
+

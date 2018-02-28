@@ -47,7 +47,7 @@ class Basepage(object):
     def get_windows_img(self):
         self.logger = logging.getLogger(__name__)
         file_path = 'D:/python/pom_adv/report/screenshots/'
-        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+        rq = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
         screen_name = file_path + rq + '.png'
         try:
             self.driver.get_screenshot_as_file(screen_name)
@@ -161,3 +161,7 @@ class Basepage(object):
         self.logger = logging.getLogger(__name__)
         time.sleep(seconds)
         self.logger.info("Sleep for %d seconds" % seconds)
+
+    def switch_alert(self):
+        alert = self.driver.switch_to_alert()
+        alert.accept()

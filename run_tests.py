@@ -15,6 +15,7 @@ import unittest
 
 #test_dir = './TestCase/interface'
 test_dir = './TestCase/webpage'
+#
 discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_*.py')
 
 
@@ -23,7 +24,7 @@ if __name__ == '__main__':
     filename = './report/' + now + '_result.html'
     fp = open(filename, 'wb')
     runner = HTMLTestRunner(stream=fp,
-                            title='Aquapaas Interface Test Report',
+                            title='Aquapaas WEB ADV Test Report',
                             description='Implementation Example with: '
 
                             )
