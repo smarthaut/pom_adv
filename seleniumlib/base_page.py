@@ -46,7 +46,7 @@ class Basepage(object):
     # 保存图片
     def get_windows_img(self):
         self.logger = logging.getLogger(__name__)
-        file_path = 'D:/python/pom_adv/screenshots/'
+        file_path = 'D:/python/pom_adv/report/screenshots/'
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
         screen_name = file_path + rq + '.png'
         try:

@@ -7,5 +7,5 @@
 # @Software: PyCharm
 import time
 
-now = time.strftime("%Y-%m-%dT%H:%M:%S%z")
-print(now)
+now = time.strftime("%Y%m%d%H%M%S")
+print(now+'你好')

@@ -1,23 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2018/2/24 11:24
+# @Time    : 2018/2/27 17:16
 # @Author  : huanghe
 # @Site    : 
-# @File    : test_create_ad_position_01.py
+# @File    : test_create_tuwen_ad_position.py
 # @Software: PyCharm
 import unittest
 import os,sys
-import logging
 from baselib.logging.pylogging import setup_logging
-from seleniumlib.browser import Browser, save_screenshot_file
+from seleniumlib.browser import Browser
 from zq_lib.AquaPassAdv.login_page import LoginPage
-from zq_lib.AquaPassAdv.first_page import FirstPage
-from zq_lib.AquaPassAdv.ad_position import AdPostion
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
 from time import sleep
 setup_logging()
-#logger = logging.getLogger()
+import time
+
 
 class LoginTest(unittest.TestCase):
 
@@ -37,29 +35,23 @@ class LoginTest(unittest.TestCase):
 
 
     def test_create_ad_position_01(self):
+        now = time.strftime("%Y%m%d%H%M%S")
         #进入广告页面
+        sleep(2)
         self.adposition_page = self.first_page.click_ad_position_btn()
-
+        sleep(0.5)
         self.picture_page = self.adposition_page.click_picture_btn()
+        sleep(0.5)
         self.create_ad_postion_for_picture = self.picture_page.click_create_btn()
-        self.ad_id_input = self.create_ad_postion_for_picture.receive_ad_position_id_input()
-        self.ad_name_input = self.create_ad_postion_for_picture.receive_ad_position_name_input()
-
-        self.picture_width_input = self.create_ad_postion_for_picture.receive_size_width_input()
-
-        self.picture_height_input = self.create_ad_postion_for_picture.receive_size_height_input()
-
-        self.ad_number_input = self.create_ad_postion_for_picture.receive_ad_size_input()
-
-        self.create_ad_postion_for_picture.set_value(self.ad_id_input, "003")
-        self.create_ad_postion_for_picture.set_value(self.ad_name_input, u'新闻联播')
-        self.create_ad_postion_for_picture.set_value(self.picture_width_input, "749")
-        self.create_ad_postion_for_picture.set_value(self.picture_height_input, "477")
-        self.create_ad_postion_for_picture.set_value(self.ad_number_input, "1")
+        self.create_ad_postion_for_picture.set_value(self.create_ad_postion_for_picture.receive_ad_position_id_input(), now)
+        self.create_ad_postion_for_picture.set_value(self.create_ad_postion_for_picture.receive_ad_position_name_input(), text=(now+'图文广告位'))
+        self.create_ad_postion_for_picture.set_value(self.create_ad_postion_for_picture.receive_size_width_input(), "749")
+        self.create_ad_postion_for_picture.set_value(self.create_ad_postion_for_picture.receive_size_height_input(), "477")
+        self.create_ad_postion_for_picture.set_value(self.create_ad_postion_for_picture.receive_ad_size_input(), "1")
         self.create_ad_postion_for_picture.select_match_suggest(u'可以拉伸')
         self.create_ad_postion_for_picture.select_default_ad(u'默认广告')
-        sleep(0.5)
         self.create_ad_postion_for_picture.click_new_create_btn()
+        self.create_ad_postion_for_picture.get_windows_img()
 
     if __name__ == '__main':
         unittest.main()

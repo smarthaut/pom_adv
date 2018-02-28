@@ -29,8 +29,8 @@ class FirstPage(Basepage):
         return self.find_element('xpath=>//div[@id="main_page_menu_celueguanli"]/div[@class="main_expandable_back"]')
          
     def click_ad_position_btn(self):
-        self.click_ele(self.rec_ad_position_btn())
-        self.logger.debug(u'进入"广告"页面')
+        self.rec_ad_position_btn().click()
+        self.logger.debug(u'进入"广告位"页面')
         return AdPostion(self.driver)
 
     def click_material_btn(self):
