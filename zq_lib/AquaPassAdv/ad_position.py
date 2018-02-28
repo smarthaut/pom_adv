@@ -144,7 +144,20 @@ class Video(Basepage):
          
         return material_info 
     
-    
+
+class word(Basepage):
+    def rec_create_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"新建广告位"按钮.')
+        return  self.find_element('id=>adPos_addPosition')
+        #return self.driver.find_element_by_css_selector('div.panel_page_button_text')
+
+    def click_create_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.click_ele(self.rec_create_btn())
+        self.logger.debug(u'点击"新建广告位 "按钮.')
+        return CreateAdPostionForVideo(self.driver)
+
 class CreateAdPostionForPicture(Basepage):
     def receive_ad_position_id_input(self):
         self.logger = logging.getLogger(__name__)
@@ -336,3 +349,6 @@ class CreateAdPostionForVideo(Basepage):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'点击新建广告位页面中"取消"按钮.')       
         return Video(self.driver)
+
+class CreateAdPositonForWord(Basepage):
+   ...
