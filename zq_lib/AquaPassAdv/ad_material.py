@@ -8,7 +8,7 @@ class AdMaterial(Basepage):
     def rec_material_btn(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"素材"按钮.')
-        return self.driver.find_element_by_css_selector('div.main_expandable_back')
+        return self.find_element('s=>div.main_expandable_back')
          
     def click_material_btn(self):
         self.rec_material_btn().click()
@@ -17,13 +17,18 @@ class AdMaterial(Basepage):
     def rec_mpicture_btn(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"图片"按钮.')
-        return self.driver.find_element_by_xpath('//div[@id="content_container"]/div[@id="sucai_container"]/div[@class="sucai_head"]/div[@class="sucai_head_left"]/div[@class="sucai_head_center"]/ul/li[@id="sucai_menu_select_img"]')
+        return self.find_element('id=>sucai_menu_select_img')
     
     def rec_mvideo_btn(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"视频"按钮.')
-        return self.driver.find_element_by_xpath('//div[@id="content_container"]/div[@id="sucai_container"]/div[@class="sucai_head"]/div[@class="sucai_head_left"]/div[@class="sucai_head_center"]/ul/li[@id="sucai_menu_select_video"]')
-         
+        return self.find_element('id=>sucai_menu_select_video')
+
+    def rec_mword_btn(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"字幕"按钮.')
+        return  self.find_element('id=>sucai_menu_select_subtitle')
+
     def click_mpicture_btn(self):
         self.rec_mpicture_btn().click()
         return MPicture(self.driver)
@@ -31,17 +36,21 @@ class AdMaterial(Basepage):
     def click_mvideo_btn(self):
         self.rec_mvideo_btn().click()
         return MVideo(self.driver)
+
+    def click_mword_btn(self):
+        self.rec_mword_btn().click()
+        return MWord(self.driver)
     
     
 class MPicture(Basepage):
     def rec_create_btn(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"添加素材"按钮.')
-        return self.driver.find_element_by_xpath('//div[@id="sucai_add_class_btn"]/span')
+        return self.find_element('xpath=>//div[@id="sucai_add_class_btn"]/span')
 
     def click_create_btn(self):
         self.logger = logging.getLogger(__name__)
-        self.logger.debug(u'点击"新建广告位 "按钮.')
+        self.logger.debug(u'点击"添加素材 "按钮.')
         self.rec_create_btn().click()
         return CreateMaterialForPicture(self.driver)
     
@@ -78,17 +87,17 @@ class CreateMaterialForPicture(Basepage):
     def receive_material_name_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"素材名称"input.')
-        return self.driver.find_element_by_css_selector('input#sucai_dialog_create_input_name_value')
+        return self.find_element('s=>input#sucai_dialog_create_input_name_value')
     
     def receive_sucai_width_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"尺寸的宽"input.')
-        return self.driver.find_element_by_css_selector('input#sucai_dialog_create_input_size_width')
+        return self.find_element('s=>input#sucai_dialog_create_input_size_width')
     
     def receive_sucai_height_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"尺寸的高 "按钮.')
-        return self.driver.find_element_by_css_selector('input#sucai_dialog_create_input_size_height')    
+        return self.find_element('s=>input#sucai_dialog_create_input_size_height')
     
     def select_weight(self,text):
         self.logger = logging.getLogger(__name__)
@@ -101,15 +110,20 @@ class CreateMaterialForPicture(Basepage):
        
     def receive_material_select_input(self):
         self.logger = logging.getLogger(__name__)
-        self.logger.debug(u'找到"选择素材"input.')
-        return self.driver.find_element_by_xpath('//div[@class="sucai_dialog_create_source"]/div[@id="sucai_dialog_create_uploadfile_source"]/input[@id="sucai_dialog_create_img_uploadfile_url"]')
-      
+        self.logger.debug(u'找到"浏览"按钮.')
+        return self.find_element('id=>sucai_dialog_create_uploadfile_click')
+
+    def click_upload(self):
+        self.logger = logging.getLogger(__name__)
+        self.receive_material_select_input().click()
+        self.logger.debug(u'点击"浏览"按钮.')
+
     def receive_confirm_btn(self): 
         self.logger = logging.getLogger(__name__) 
-        self.logger.debug(u'找到"确认"按钮.') 
-        return self.driver.find_element_by_xpath('//div[@class="sucai_dialog_create_opition"]/div[@id="sucai_dialog_create_botton_click"]') 
-    
-    def click_confirm_btn(self): 
+        self.logger.debug(u'找到"确认"按钮.')
+        return self.find_element('xpath=>//div[@class="sucai_dialog_create_opition"]/div[@id="sucai_dialog_create_botton_click"]')
+
+    def click_confirm_btn(self):
         self.logger = logging.getLogger(__name__)
         self.receive_confirm_btn().click()   
         self.logger.debug(u'点击添加素材页面中"确认"按钮.') 
@@ -117,8 +131,8 @@ class CreateMaterialForPicture(Basepage):
     
     def receive_cancel_btn(self): 
         self.logger = logging.getLogger(__name__) 
-        self.logger.debug(u'找到"确认"按钮.') 
-        return self.driver.find_element_by_xpath('//div[@class="sucai_dialog_create_opition"]/div[1]') 
+        self.logger.debug(u'找到"确认"按钮.')
+        return self.find_element('xpath=>//div[@class="sucai_dialog_create_opition"]/div[1]')
        
     def click_cancel_btn(self): 
         self.receive_cancel_btn().click()
@@ -126,12 +140,12 @@ class CreateMaterialForPicture(Basepage):
         self.logger.debug(u'点击新建广告位页面中"取消"按钮.')       
         return MPicture(self.driver)
         
-     
+
 class MVideo(Basepage):
     def rec_create_btn(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"添加素材"按钮.')
-        return self.driver.find_element_by_xpath('//div[@id="sucai_add_class_btn"]/span')
+        return self.find_element('xpath=>//div[@id="sucai_add_class_btn"]/span')
 
     def click_create_btn(self):
         self.logger = logging.getLogger(__name__)
@@ -178,24 +192,23 @@ class CreateMaterialForVideo(Basepage):
     def receive_material_name_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"素材名称"input.')
-        return self.driver.find_element_by_css_selector('input#sucai_dialog_create_input_name_value')
+        return self.find_element('s=>input#sucai_dialog_create_input_name_value')
     
     def receive_sucai_width_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"尺寸的宽"input.')
-        return self.driver.find_element_by_css_selector('input#sucai_dialog_create_input_size_width')
+        return self.find_element('s=>input#sucai_dialog_create_input_size_width')
     
     def receive_sucai_height_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"尺寸的高 "input.')
-        return self.driver.find_element_by_css_selector('input#sucai_dialog_create_input_size_height')    
+        return self.find_element('s=>input#sucai_dialog_create_input_size_height')
     
     
     def receive_sucai_time_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"素材时长 "input.')
-        return self.driver.find_element_by_xpath('//div[@class="sucai_dialog_create_size"]/input[@id="sucai_dialog_create_input_time_value"]')    
-    
+        return self.find_element('xpath=>//div[@class="sucai_dialog_create_size"]/input[@id="sucai_dialog_create_input_time_value"]')
     
     def select_weight(self,text):
         self.logger = logging.getLogger(__name__)
@@ -231,4 +244,10 @@ class CreateMaterialForVideo(Basepage):
         self.receive_cancel_btn().click()
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'点击新建广告位页面中"取消"按钮.')       
-        return MPicture(self.driver)   
+        return MPicture(self.driver)
+
+class MWord(Basepage):
+    ...
+
+class CreateMaterialForWord(Basepage):
+    ...
