@@ -16,7 +16,7 @@ from time import sleep
 setup_logging()
 import time
 
-class LoginTest(unittest.TestCase):
+class AquaPaasAdvTest(unittest.TestCase):
 
     def setUp(self):
         self.driver = Browser(timeout=60)
@@ -30,7 +30,7 @@ class LoginTest(unittest.TestCase):
         self.first_page = login_page.get_first_page()
 
     def tearDown(self):
-        ...
+        #...
         self.driver.quit()
 
 #创建图片素材
@@ -52,12 +52,64 @@ class LoginTest(unittest.TestCase):
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_material_name_input(), text=(now + '图片素材'))
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_sucai_width_input(), "123")
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_sucai_height_input(), "123")
-        self.create_mpicture_materia_page.select_weight(text='20')
+        self.create_mpicture_materia_page.select_weight(text='30')
         self.create_mpicture_materia_page.click_confirm_btn()
         sleep(5)
-        self.create_mpicture_materia_page.switch_alert()
-        self.create_mpicture_materia_page.get_windows_img()
+        alert = self.driver.switch_to.alert
+        alert.accept()
+        self.mpicture_page.get_windows_img()
 
+
+#创建视频素材
+    def test_create_mvideo_materia(self):
+        now = time.strftime("%Y%m%d%H%M%S")
+        # 进入广告页面
+        sleep(2)
+        self.first_page.rec_material_btn()
+        self.ad_materia_page = self.first_page.click_material_btn()
+        sleep(0.5)
+        self.ad_materia_page.rec_mvideo_btn()
+        self.mvideo_page = self.ad_materia_page.click_mvideo_btn()
+        self.mvideo_page.rec_create_btn()
+        self.create_mvideo_materia_page = self.mvideo_page.click_create_btn()
+        sleep(0.5)
+        self.create_mvideo_materia_page.click_upload()
+        os.system('D:/auit/videoupload.exe')
+        sleep(5)
+        self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_material_name_input()
+                                                  ,text=(now + '视频素材'))
+        self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_sucai_time_input()
+                                                   ,text='19')
+        self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_sucai_height_input()
+                                                  ,text='300')
+        self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_sucai_width_input()
+                                                  ,text='300')
+        self.create_mvideo_materia_page.select_weight(text='30')
+        self.create_mvideo_materia_page.click_confirm_btn()
+        sleep(10)
+        alert = self.driver.switch_to.alert
+        alert.accept()
+        self.mvideo_page.get_windows_img()
+
+
+#创建字幕素材
+    def test_creat_mword_materia(self):
+        now = time.strftime("%Y%m%d%H%M%S")
+        # 进入广告页面
+        sleep(2)
+        self.first_page.rec_material_btn()
+        self.ad_materia_page = self.first_page.click_material_btn()
+        sleep(0.5)
+        self.ad_materia_page.rec_mword_btn()
+        self.mword_page = self.ad_materia_page.click_mword_btn()
+        self.mword_page.rec_create_btn()
+        self.create_mword_materia_page = self.mword_page.click_create_btn()
+        self.create_mword_materia_page.set_value(self.create_mword_materia_page.receive_material_name_input()
+                                                 ,text=(now + '字幕素材'))
+        self.create_mword_materia_page.set_value(self.create_mword_materia_page.receive_material_textarea_input()
+                                                 ,text=u'日前，从全省住房和城乡建设工作会议上获悉，今年起我省将实施棚户区改造三年攻坚计划，2018、2019年集中攻坚，2020年扫尾。今年我省棚户区改造开工建设23万套，省政府将与各市签订目标责任书，'
+                                                       u'大力推进棚改开工任务落实，同时抓好往年棚改项目竣工入住')
+        self.create_mword_materia_page.click_confirm_btn()
 
 
     if __name__ == '__main':
