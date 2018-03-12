@@ -55,6 +55,14 @@ class AdMateriaTest(unittest.TestCase):
         self.result = self.get_and_post('get_ad_materia_subtitle_list')
         print('状态为未审核的字幕素材名')
 
-    def test_sucai_shenhe(self):
-        ad_id = self.get_and_post('get_ad_materia_img_list')
-        self.exurl = 'http://10.50.4.115:8080/aquapaas/rest/auditflow/instance/ad_item/'
+    #def test_sucai_shenhe(self):
+        #ad_id = self.get_and_post('get_ad_materia_img_list')
+        #self.exurl = 'http://10.50.4.115:8080/aquapaas/rest/auditflow/instance/ad_item/'
+
+    def test_get_po(self):
+        content = {'attribute':'ote_get_product_offering','product_offering_id':'54'}
+        url = 'http://10.50.3.113:8040/STBServlet'
+        r = requests.get(url=url, params=content, headers=self.header)
+        print(r.status_code)
+        self.result = r.text
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/3/8 17:36
 # @Author  : huanghe
-# @Site    : 
+# @Site    :
 # @File    : test_ad_policy.py
 # @Software: PyCharm
 import unittest
@@ -19,7 +19,7 @@ setup_logging()
 import time
 
 
-class LoginTest(unittest.TestCase):
+class AquaPaasAdvTest(unittest.TestCase):
     def setUp(self):
         self.driver = Browser(timeout=60)
         login_page = LoginPage(self.driver)

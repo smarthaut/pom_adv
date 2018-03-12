@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/3/7 16:45
 # @Author  : huanghe
-# @Site    : 
+# @Site    :
 # @File    : test_ad_position.py
 # @Software: PyCharm
 import unittest
@@ -16,7 +16,7 @@ from time import sleep
 setup_logging()
 import time
 
-class LoginTest(unittest.TestCase):
+class AquaPaasAdvTest(unittest.TestCase):
 
     def setUp(self):
         self.driver = Browser(timeout=60)

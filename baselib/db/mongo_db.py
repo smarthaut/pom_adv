@@ -12,7 +12,7 @@ import configparser as cparser
 
 base_dir = str(os.path.dirname(os.path.dirname(__file__)))
 base_dir = base_dir.replace('\\','/')
-file_path = base_dir + "baselib/db/db_config.ini"
+file_path = base_dir + "/db/db_config.ini"
 
 
 cf = cparser.ConfigParser()

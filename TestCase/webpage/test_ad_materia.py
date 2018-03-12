@@ -102,7 +102,6 @@ class AquaPaasAdvTest(unittest.TestCase):
         sleep(0.5)
         self.ad_materia_page.rec_mword_btn()
         self.mword_page = self.ad_materia_page.click_mword_btn()
-        self.mword_page.rec_create_btn()
         self.create_mword_materia_page = self.mword_page.click_create_btn()
         self.create_mword_materia_page.set_value(self.create_mword_materia_page.receive_material_name_input()
                                                  ,text=(now + '字幕素材'))
