@@ -1,2 +1,2 @@
 # pom_adv
-工作中的自动化测试框架
+AquaPaas ADV的自动化测试code
