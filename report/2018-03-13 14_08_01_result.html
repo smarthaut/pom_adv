@@ -123,8 +123,8 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Aquapaas WEB ADV Test Report</h1>
 <p class='attribute'><strong>测试人员 : </strong> QAHE</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-03-07 17:42:46</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:36.071000</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-03-13 14:08:01</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:24.318863</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 1，错误 1，通过率= 0.00%</p>
 
 <p class='description'>Implementation Example with: </p>
@@ -157,7 +157,7 @@ function html_escape(s) {
 </tr>
 
 <tr class='errorClass warning'>
-    <td>test_ad_materia.LoginTest</td>
+    <td>test_ad_policy_status.AquaPaasAdvTest</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
@@ -166,7 +166,7 @@ function html_escape(s) {
 </tr>
 
 <tr id='ft1_1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_create_mpicture_materia</div></td>
+    <td class='errorCase'><div class='testcase'>test_policy_status</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
@@ -178,18 +178,11 @@ function html_escape(s) {
     <pre>
     
 ft1_1: Traceback (most recent call last):
-  File "D:\python\pom_adv\TestCase\webpage\test_ad_materia.py", line 52, in test_create_mpicture_materia
-    self.create_mpicture_materia_page.switch_alert()
-  File "D:\python\pom_adv\seleniumlib\base_page.py", line 167, in switch_alert
-    alert.accept()
-  File "C:\Python35\lib\site-packages\selenium\webdriver\common\alert.py", line 88, in accept
-    self.driver.execute(Command.W3C_ACCEPT_ALERT)
-  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 308, in execute
-    self.error_handler.check_response(response)
-  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoAlertPresentException: Message: No modal dialog is currently open
-
+  File "D:\python\pom_adv\TestCase\webpage\test_ad_policy_status.py", line 48, in test_policy_status
+    self.page = self.img_policy_page.click_pass()
+  File "D:\python\pom_adv\zq_lib\AquaPassAdv\policy_status.py", line 96, in click_pass
+    self.rec_pass_btn().click()
+AttributeError: 'str' object has no attribute 'click'
 
 
     </pre>

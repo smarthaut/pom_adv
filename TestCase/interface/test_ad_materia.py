@@ -35,34 +35,48 @@ class AdMateriaTest(unittest.TestCase):
         content = self.collection.find({'type':type})[0]['content']
         r = requests.get(url=self.base_url,params=content,headers=self.header)
         result = []
+        ad_id= []
         for i in r.json():
             result.append(i['name'])
+            ad_id.append(i['ad_id'])
         self.result = result
-        return self.result
+        self.ad_id = ad_id
+        return self.result,self.ad_id
 
-    def test_get_ad_img_materia(self):
+    '''def test_get_ad_img_materia(self):
         #状态为未审核的图文素材
-        self.result = self.get_and_post('get_ad_materia_img_list')
+        self.result = self.get_and_post('get_ad_materia_img_list')[0]
         print('状态为未审核的图文素材名')
 
     def test_get_ad_video_materia(self):
         #状态为未审核的视频素材
-        self.result = self.get_and_post('get_ad_materia_video_list')
+        self.result = self.get_and_post('get_ad_materia_video_list')[0]
         print('状态为未审核的视频素材名')
 
     def test_get_ad_word_materia(self):
         #状态为未审核的字幕素材
-        self.result = self.get_and_post('get_ad_materia_subtitle_list')
-        print('状态为未审核的字幕素材名')
+        self.result = self.get_and_post('get_ad_materia_subtitle_list')[0]
+        print('状态为未审核的字幕素材名')'''
 
     #def test_sucai_shenhe(self):
         #ad_id = self.get_and_post('get_ad_materia_img_list')
         #self.exurl = 'http://10.50.4.115:8080/aquapaas/rest/auditflow/instance/ad_item/'
 
-    def test_get_po(self):
+    '''def test_get_po(self):
         content = {'attribute':'ote_get_product_offering','product_offering_id':'54'}
         url = 'http://10.50.3.113:8040/STBServlet'
         r = requests.get(url=url, params=content, headers=self.header)
         print(r.status_code)
-        self.result = r.text
+        self.result = r.text'''
 
+
+    def test_sucai_shenhe(self):
+
+        ad_id = self.get_and_post('get_ad_materia_subtitle_list')[1][0]
+        print('审核通过ad_id为%s的字幕广告'% ad_id)
+        exl_url = 'http://10.50.4.115:8080/aquapaas/rest/auditflow/instance/ad_item/'+ad_id
+        content = self.collection.find({'type': 'sucai_shenhe'})[0]['content']
+        date = {"no":"1","status":"passed"}
+        r = requests.put(url=exl_url, params=content,headers=self.header,json={'no':'1','status':'passed'})
+        self.assertIn(r.status_code,{200})
+        self.result = self.get_and_post('get_ad_materia_subtitle_list')[1]

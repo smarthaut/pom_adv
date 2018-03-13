@@ -7,6 +7,7 @@ from zq_lib.AquaPassAdv.ad_position import AdPostion
 from zq_lib.AquaPassAdv.ad_material import AdMaterial
 from zq_lib.AquaPassAdv.material_group import MaterialGroup
 from zq_lib.AquaPassAdv.policy_manage import PolicyManage
+from zq_lib.AquaPassAdv.policy_status import PolicyStatus
 
 
 class FirstPage(Basepage):
@@ -30,6 +31,11 @@ class FirstPage(Basepage):
         self.logger.debug(u'找到"策略管理"按钮.')
         return self.find_element('xpath=>//div[@id="main_page_menu_celueguanli"]/div[@class="main_expandable_back"]')
 
+    def rec_policy_status(self):
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug(u'找到"策略审核"按钮')
+        return self.find_element('id=>main_page_menu_celueshenhe')
+
     def click_ad_position_btn(self):
         self.rec_ad_position_btn().click()
         self.logger.debug(u'进入"广告位"页面')
@@ -50,3 +56,7 @@ class FirstPage(Basepage):
         self.logger.debug(u'进入"策略管理"页面.')
         return PolicyManage(self.driver)
 
+    def click_policy_status_btn(self):
+        self.rec_policy_status().click()
+        self.logger.debug(u'进入"策略审核"页面')
+        return PolicyStatus(self.driver)

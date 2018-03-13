@@ -1,80 +1,57 @@
-2018-03-12 15:09:40,344 [DEBUG] [D:\python\pom_adv\baselib\logging\pylogging.py(setup_logging)] load logging module successfully!
-2018-03-12 15:10:31,308 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_user_input)] 找到"登录用户名"输入input.
-2018-03-12 15:10:34,828 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_mail 
-2018-03-12 15:10:35,845 [INFO] [seleniumlib.base_page(set_value)] Had type ' root ' in inputBox
-2018-03-12 15:10:35,846 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_passwd_input)] 找到"密码"输入input.
-2018-03-12 15:10:35,868 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_pwd 
-2018-03-12 15:10:36,063 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
-2018-03-12 15:10:36,452 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 立即登录 ' successful by id via value: login_dialog_login_button 
-2018-03-12 15:10:37,075 [INFO] [seleniumlib.base_page(click_sel)] The element ' 立即登录 ' was clicked.
-2018-03-12 15:10:37,441 [DEBUG] [seleniumlib.base_page(click_login_btn)] 点击"立即登录 "按钮.
-2018-03-12 15:10:39,441 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_material_btn)] 找到"素材"按钮.
-2018-03-12 15:10:39,470 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 素材 ' successful by xpath via value: //div[@id="main_page_menu_sucai"]/div[@class="main_expandable_back"] 
-2018-03-12 15:10:39,471 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_material_btn)] 找到"素材"按钮.
-2018-03-12 15:10:39,495 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 素材 ' successful by xpath via value: //div[@id="main_page_menu_sucai"]/div[@class="main_expandable_back"] 
-2018-03-12 15:10:40,241 [DEBUG] [seleniumlib.base_page(click_material_btn)] 进入"素材"页面.
-2018-03-12 15:10:40,741 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_mword_btn)] 找到"字幕"按钮.
-2018-03-12 15:10:40,954 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 字幕 ' successful by id via value: sucai_menu_select_subtitle 
-2018-03-12 15:10:40,955 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_mword_btn)] 找到"字幕"按钮.
-2018-03-12 15:10:41,052 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 字幕 ' successful by id via value: sucai_menu_select_subtitle 
-2018-03-12 15:11:36,196 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_user_input)] 找到"登录用户名"输入input.
-2018-03-12 15:11:36,309 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_mail 
-2018-03-12 15:11:36,611 [INFO] [seleniumlib.base_page(set_value)] Had type ' root ' in inputBox
-2018-03-12 15:11:36,611 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_passwd_input)] 找到"密码"输入input.
-2018-03-12 15:11:36,637 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_pwd 
-2018-03-12 15:11:36,674 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
-2018-03-12 15:11:36,745 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 立即登录 ' successful by id via value: login_dialog_login_button 
-2018-03-12 15:11:36,755 [INFO] [seleniumlib.base_page(click_sel)] The element ' 立即登录 ' was clicked.
-2018-03-12 15:11:36,983 [DEBUG] [seleniumlib.base_page(click_login_btn)] 点击"立即登录 "按钮.
-2018-03-12 15:11:38,983 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_material_btn)] 找到"素材"按钮.
-2018-03-12 15:11:39,001 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 素材 ' successful by xpath via value: //div[@id="main_page_menu_sucai"]/div[@class="main_expandable_back"] 
-2018-03-12 15:11:39,001 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_material_btn)] 找到"素材"按钮.
-2018-03-12 15:11:39,014 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 素材 ' successful by xpath via value: //div[@id="main_page_menu_sucai"]/div[@class="main_expandable_back"] 
-2018-03-12 15:11:40,058 [DEBUG] [seleniumlib.base_page(click_material_btn)] 进入"素材"页面.
-2018-03-12 15:11:40,562 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_mpicture_btn)] 找到"图片"按钮.
-2018-03-12 15:11:40,680 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 图片 ' successful by id via value: sucai_menu_select_img 
-2018-03-12 15:11:40,680 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_mpicture_btn)] 找到"图片"按钮.
-2018-03-12 15:11:40,725 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 图片 ' successful by id via value: sucai_menu_select_img 
-2018-03-12 15:11:41,088 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_create_btn)] 找到"添加素材"按钮.
-2018-03-12 15:11:41,154 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 添加素材 ' successful by xpath via value: //div[@id="sucai_add_class_btn"]/span 
-2018-03-12 15:11:41,154 [DEBUG] [zq_lib.AquaPassAdv.ad_material(click_create_btn)] 点击"添加素材 "按钮.
-2018-03-12 15:11:41,154 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_create_btn)] 找到"添加素材"按钮.
-2018-03-12 15:11:41,188 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 添加素材 ' successful by xpath via value: //div[@id="sucai_add_class_btn"]/span 
-2018-03-12 15:11:41,931 [DEBUG] [zq_lib.AquaPassAdv.ad_material(receive_material_select_input)] 找到"浏览"按钮.
-2018-03-12 15:11:42,011 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 浏 览 ' successful by id via value: sucai_dialog_create_uploadfile_click 
-2018-03-12 15:11:58,359 [DEBUG] [seleniumlib.base_page(click_upload)] 点击"浏览"按钮.
-2018-03-12 15:12:23,879 [DEBUG] [zq_lib.AquaPassAdv.ad_material(receive_material_name_input)] 找到"素材名称"input.
-2018-03-12 15:12:23,961 [INFO] [seleniumlib.base_page(set_value)] Had type ' 20180312151136图片素材 ' in inputBox
-2018-03-12 15:12:23,961 [DEBUG] [zq_lib.AquaPassAdv.ad_material(receive_sucai_width_input)] 找到"尺寸的宽"input.
-2018-03-12 15:12:24,024 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
-2018-03-12 15:12:24,024 [DEBUG] [zq_lib.AquaPassAdv.ad_material(receive_sucai_height_input)] 找到"尺寸的高 "按钮.
-2018-03-12 15:12:24,063 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
-2018-03-12 15:12:24,063 [DEBUG] [zq_lib.AquaPassAdv.ad_material(select_weight)] 点击'30'
-2018-03-12 15:12:24,063 [ERROR] [zq_lib.AquaPassAdv.ad_material(select_weight)] 输入权重错误！
-2018-03-12 15:12:24,063 [DEBUG] [zq_lib.AquaPassAdv.ad_material(receive_confirm_btn)] 找到"确认"按钮.
-2018-03-12 15:12:24,086 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 确 认 ' successful by xpath via value: //div[@class="sucai_dialog_create_opition"]/div[@id="sucai_dialog_create_botton_click"] 
-2018-03-12 15:12:24,773 [DEBUG] [seleniumlib.base_page(click_confirm_btn)] 点击添加素材页面中"确认"按钮.
-2018-03-12 15:12:30,364 [INFO] [seleniumlib.base_page(get_windows_img)] Had take screenshot and save to folder : /screenshots
-2018-03-12 15:12:48,663 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_user_input)] 找到"登录用户名"输入input.
-2018-03-12 15:12:48,831 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_mail 
-2018-03-12 15:12:48,898 [INFO] [seleniumlib.base_page(set_value)] Had type ' root ' in inputBox
-2018-03-12 15:12:48,898 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_passwd_input)] 找到"密码"输入input.
-2018-03-12 15:12:48,915 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_pwd 
-2018-03-12 15:12:48,981 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
-2018-03-12 15:12:48,999 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 立即登录 ' successful by id via value: login_dialog_login_button 
-2018-03-12 15:12:49,008 [INFO] [seleniumlib.base_page(click_sel)] The element ' 立即登录 ' was clicked.
-2018-03-12 15:12:49,416 [DEBUG] [seleniumlib.base_page(click_login_btn)] 点击"立即登录 "按钮.
-2018-03-12 15:12:51,417 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_material_btn)] 找到"素材"按钮.
-2018-03-12 15:12:51,609 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 素材 ' successful by xpath via value: //div[@id="main_page_menu_sucai"]/div[@class="main_expandable_back"] 
-2018-03-12 15:12:51,609 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_material_btn)] 找到"素材"按钮.
-2018-03-12 15:12:51,731 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 素材 ' successful by xpath via value: //div[@id="main_page_menu_sucai"]/div[@class="main_expandable_back"] 
-2018-03-12 15:12:52,065 [DEBUG] [seleniumlib.base_page(click_material_btn)] 进入"素材"页面.
-2018-03-12 15:12:52,565 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_mvideo_btn)] 找到"视频"按钮.
-2018-03-12 15:12:52,901 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 视频 ' successful by id via value: sucai_menu_select_video 
-2018-03-12 15:12:52,901 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_mvideo_btn)] 找到"视频"按钮.
-2018-03-12 15:12:52,969 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 视频 ' successful by id via value: sucai_menu_select_video 
-2018-03-12 15:12:53,207 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_create_btn)] 找到"添加素材"按钮.
-2018-03-12 15:12:53,272 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 添加素材 ' successful by xpath via value: //div[@id="sucai_add_class_btn"]/span 
-2018-03-12 15:12:53,272 [DEBUG] [zq_lib.AquaPassAdv.ad_material(click_create_btn)] 点击"新建广告位 "按钮.
-2018-03-12 15:12:53,272 [DEBUG] [zq_lib.AquaPassAdv.ad_material(rec_create_btn)] 找到"添加素材"按钮.
-2018-03-12 15:12:53,300 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 添加素材 ' successful by xpath via value: //div[@id="sucai_add_class_btn"]/span 
+2018-03-13 15:35:49,817 [DEBUG] [D:\python\pom_adv\baselib\logging\pylogging.py(setup_logging)] load logging module successfully!
+2018-03-13 15:36:00,012 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_user_input)] 找到"登录用户名"输入input.
+2018-03-13 15:36:00,376 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_mail 
+2018-03-13 15:36:00,464 [INFO] [seleniumlib.base_page(set_value)] Had type ' root ' in inputBox
+2018-03-13 15:36:00,464 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_passwd_input)] 找到"密码"输入input.
+2018-03-13 15:36:00,488 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_pwd 
+2018-03-13 15:36:00,540 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
+2018-03-13 15:36:00,557 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 立即登录 ' successful by id via value: login_dialog_login_button 
+2018-03-13 15:36:00,565 [INFO] [seleniumlib.base_page(click_sel)] The element ' 立即登录 ' was clicked.
+2018-03-13 15:36:00,828 [DEBUG] [seleniumlib.base_page(click_login_btn)] 点击"立即登录 "按钮.
+2018-03-13 15:36:02,828 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_policy_status)] 找到"策略审核"按钮
+2018-03-13 15:36:02,859 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 策略审核 ' successful by id via value: main_page_menu_celueshenhe 
+2018-03-13 15:36:03,233 [DEBUG] [seleniumlib.base_page(click_policy_status_btn)] 进入"策略审核"页面
+2018-03-13 15:36:03,233 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_policy_picture_btn)] 找到"图文"按钮.
+2018-03-13 15:36:03,260 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 图文 ' successful by id via value: policy_img 
+2018-03-13 15:36:03,483 [DEBUG] [zq_lib.AquaPassAdv.policy_status(click_policy_picture_btn)] 点击图文按钮
+2018-03-13 15:36:03,483 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_policy_firstaudit_btn)] 找到"初审"按钮.
+2018-03-13 15:36:03,501 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 初审 ' successful by id via value: policy_firstAudit 
+2018-03-13 15:36:03,882 [DEBUG] [zq_lib.AquaPassAdv.policy_status(click_first_audit)] 点击初审按钮
+2018-03-13 15:36:03,882 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_pass_btn)] 找到通过按钮
+2018-03-13 15:36:03,905 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 通过 ' successful by xpath via value: //div[@id="adPolicyAuditTable"]/table/tbody/tr[1]/td[10]/span[3] 
+2018-03-13 15:36:04,140 [DEBUG] [seleniumlib.base_page(click_pass)] 点击通过按钮
+2018-03-13 15:36:04,140 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_confirm_btn)] 找到"确定"按钮.
+2018-03-13 15:36:04,379 [DEBUG] [seleniumlib.base_page(click_confirm_btn)] 点击确定按钮
+2018-03-13 15:36:04,379 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_policy_secondaudit_btn)] 找到"终审"按钮.
+2018-03-13 15:36:04,395 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 终审 ' successful by id via value: policy_secondAudit 
+2018-03-13 15:36:04,790 [DEBUG] [zq_lib.AquaPassAdv.policy_status(click_second_audit)] 点击终审按钮
+2018-03-13 15:36:04,790 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_pass_btn)] 找到通过按钮
+2018-03-13 15:36:04,809 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 通过 ' successful by xpath via value: //div[@id="adPolicyAuditTable"]/table/tbody/tr[1]/td[10]/span[3] 
+2018-03-13 15:36:05,032 [DEBUG] [seleniumlib.base_page(click_pass)] 点击通过按钮
+2018-03-13 15:36:05,032 [DEBUG] [zq_lib.AquaPassAdv.policy_status(rec_confirm_btn)] 找到"确定"按钮.
+2018-03-13 15:36:05,265 [DEBUG] [seleniumlib.base_page(click_confirm_btn)] 点击确定按钮
+2018-03-13 15:36:05,331 [INFO] [seleniumlib.base_page(get_windows_img)] Had take screenshot and save to folder : /screenshots
+2018-03-13 15:36:19,548 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_user_input)] 找到"登录用户名"输入input.
+2018-03-13 15:36:20,003 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_mail 
+2018-03-13 15:36:20,093 [INFO] [seleniumlib.base_page(set_value)] Had type ' root ' in inputBox
+2018-03-13 15:36:20,093 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_passwd_input)] 找到"密码"输入input.
+2018-03-13 15:36:20,121 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_pwd 
+2018-03-13 15:36:20,158 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
+2018-03-13 15:36:20,179 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 立即登录 ' successful by id via value: login_dialog_login_button 
+2018-03-13 15:36:20,227 [INFO] [seleniumlib.base_page(click_sel)] The element ' 立即登录 ' was clicked.
+2018-03-13 15:36:20,514 [DEBUG] [seleniumlib.base_page(click_login_btn)] 点击"立即登录 "按钮.
+2018-03-13 15:36:22,515 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_policy_status)] 找到"策略审核"按钮
+2018-03-13 15:36:22,539 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 策略审核 ' successful by id via value: main_page_menu_celueshenhe 
+2018-03-13 15:36:22,813 [DEBUG] [seleniumlib.base_page(click_policy_status_btn)] 进入"策略审核"页面
+2018-03-13 15:36:34,071 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_user_input)] 找到"登录用户名"输入input.
+2018-03-13 15:36:34,212 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_mail 
+2018-03-13 15:36:34,285 [INFO] [seleniumlib.base_page(set_value)] Had type ' root ' in inputBox
+2018-03-13 15:36:34,285 [DEBUG] [zq_lib.AquaPassAdv.login_page(rec_passwd_input)] 找到"密码"输入input.
+2018-03-13 15:36:36,728 [INFO] [seleniumlib.base_page(find_element)] Had find the element '  ' successful by id via value: login_dialog_input_user_pwd 
+2018-03-13 15:36:36,820 [INFO] [seleniumlib.base_page(set_value)] Had type ' 123 ' in inputBox
+2018-03-13 15:36:36,844 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 立即登录 ' successful by id via value: login_dialog_login_button 
+2018-03-13 15:36:36,853 [INFO] [seleniumlib.base_page(click_sel)] The element ' 立即登录 ' was clicked.
+2018-03-13 15:36:37,141 [DEBUG] [seleniumlib.base_page(click_login_btn)] 点击"立即登录 "按钮.
+2018-03-13 15:36:39,142 [DEBUG] [zq_lib.AquaPassAdv.first_page(rec_policy_status)] 找到"策略审核"按钮
+2018-03-13 15:36:39,161 [INFO] [seleniumlib.base_page(find_element)] Had find the element ' 策略审核 ' successful by id via value: main_page_menu_celueshenhe 
+2018-03-13 15:36:39,402 [DEBUG] [seleniumlib.base_page(click_policy_status_btn)] 进入"策略审核"页面

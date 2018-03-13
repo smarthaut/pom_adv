@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Aquapaas WEB ADV Test Report</h1>
 <p class='attribute'><strong>测试人员 : </strong> QAHE</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-03-07 16:47:35</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:02:47.613760</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 2，错误 1，通过率= 66.67%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-03-13 14:42:32</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:13.889777</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，通过 1，通过率= 100.00%</p>
 
 <p class='description'>Implementation Example with: </p>
 </div>
@@ -133,10 +133,10 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 66.67% }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -156,64 +156,27 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='errorClass warning'>
-    <td>test_ad_position.LoginTest</td>
-    <td class="text-center">3</td>
-    <td class="text-center">2</td>
-    <td class="text-center">0</td>
+<tr class='passClass warning'>
+    <td>test_ad_policy_status.AquaPaasAdvTest</td>
     <td class="text-center">1</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_create_tiepian_ad_position</div></td>
+    <td class='passCase'><div class='testcase'>test_policy_status</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_create_tuwen_ad_position</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr id='ft1_3' class='none'>
-    <td class='errorCase'><div class='testcase'>test_create_zimu_ad_position</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>错误</button>
-    <div id='div_ft1_3' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>错误</button>
-    <div id='div_ft1_3' class="collapse in">
-    <pre>
-    
-ft1_3: Traceback (most recent call last):
-  File "D:\python\pom_adv\TestCase\webpage\test_ad_position.py", line 94, in test_create_zimu_ad_position
-    self.create_ad_postion_for_word.switch_alert()
-  File "D:\python\pom_adv\seleniumlib\base_page.py", line 167, in switch_alert
-    alert.accept()
-  File "C:\Python35\lib\site-packages\selenium\webdriver\common\alert.py", line 88, in accept
-    self.driver.execute(Command.W3C_ACCEPT_ALERT)
-  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 308, in execute
-    self.error_handler.check_response(response)
-  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoAlertPresentException: Message: No modal dialog is currently open
-
-
-
-    </pre>
-    </div>
-    </td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>3</td>
-    <td>2</td>
-    <td>0</td>
     <td>1</td>
-    <td>通过率：66.67%</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
 </tr>
 </table>
 

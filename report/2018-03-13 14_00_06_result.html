@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Aquapaas WEB ADV Test Report</h1>
 <p class='attribute'><strong>测试人员 : </strong> QAHE</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-03-09 17:40:29</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:01:00.819161</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-03-13 14:00:06</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:58.904000</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，错误 1，通过率= 0.00%</p>
 
 <p class='description'>Implementation Example with: </p>
 </div>
@@ -133,10 +133,10 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -156,37 +156,60 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='passClass warning'>
-    <td>test_ad_policy.LoginTest</td>
-    <td class="text-center">3</td>
-    <td class="text-center">3</td>
+<tr class='errorClass warning'>
+    <td>test_ad_policy_status.AquaPaasAdvTest</td>
+    <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_create_policy_img</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
+<tr id='ft1_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_policy_status</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse">  -->
 
-<tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_create_policy_video</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre>
+    
+ft1_1: Traceback (most recent call last):
+  File "D:\python\pom_adv\TestCase\webpage\test_ad_policy_status.py", line 48, in test_policy_status
+    self.policy_first_page.click_confirm_btn()
+  File "D:\python\pom_adv\zq_lib\AquaPassAdv\policy_status.py", line 142, in click_confirm_btn
+    self.rec_confirm_btn().click()
+  File "D:\python\pom_adv\zq_lib\AquaPassAdv\policy_status.py", line 134, in rec_confirm_btn
+    return self.find_element('s=&gt;div.auditDialogConfirmBtn')
+  File "D:\python\pom_adv\seleniumlib\base_page.py", line 95, in find_element
+    element = self.driver.find_element_by_css_selector(selector_value)
+  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 509, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 843, in find_element
+    'value': value})['value']
+  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: div.auditDialogConfirmBtn
 
-<tr id='pt1_3' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_create_policy_word</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+
+
+    </pre>
+    </div>
+    </td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>3</td>
-    <td>3</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>通过率：100.00%</td>
+    <td>1</td>
+    <td>通过率：0.00%</td>
 </tr>
 </table>
 
