@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/3/8 14:30
 # @Author  : huanghe
-# @Site    : 
+# @Site    :
 # @File    : test_ad_materia_group.py
 # @Software: PyCharm
 import unittest

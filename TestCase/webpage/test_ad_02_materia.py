@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/3/7 17:10
 # @Author  : huanghe
-# @Site    : 
+# @Site    :
 # @File    : test_ad_materia.py
 # @Software: PyCharm
 import unittest
@@ -47,16 +47,15 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_mpicture_materia_page = self.mpicture_page.click_create_btn()
         sleep(0.5)
         self.create_mpicture_materia_page.click_upload()
-        os.system('D:/auit/materia.exe')
-        sleep(5)
+        os.system('D:/auit/upload.exe "D:\\pictures\\012.jpg"')
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_material_name_input(), text=(now + '图片素材'))
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_sucai_width_input(), "123")
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_sucai_height_input(), "123")
-        self.create_mpicture_materia_page.select_weight(text='30')
+        self.create_mpicture_materia_page.select_num(text=30).click()
         self.create_mpicture_materia_page.click_confirm_btn()
-        sleep(5)
-        alert = self.driver.switch_to.alert
-        alert.accept()
+        sleep(10)
+        self.mpicture_page.switch_alert()
+        self.ad_materia_page.click_mpicture_btn()
         self.mpicture_page.get_windows_img()
 
 
@@ -74,7 +73,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_mvideo_materia_page = self.mvideo_page.click_create_btn()
         sleep(0.5)
         self.create_mvideo_materia_page.click_upload()
-        os.system('D:/auit/videoupload.exe')
+        os.system('D:/auit/upload.exe "D:\\pictures\\video\\005.ts"')
         sleep(5)
         self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_material_name_input()
                                                   ,text=(now + '视频素材'))
@@ -84,11 +83,10 @@ class AquaPaasAdvTest(unittest.TestCase):
                                                   ,text='300')
         self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_sucai_width_input()
                                                   ,text='300')
-        self.create_mvideo_materia_page.select_weight(text='30')
+        self.create_mvideo_materia_page.select_num(text=30).click()
         self.create_mvideo_materia_page.click_confirm_btn()
         sleep(10)
-        alert = self.driver.switch_to.alert
-        alert.accept()
+        self.mvideo_page.switch_alert()
         self.mvideo_page.get_windows_img()
 
 

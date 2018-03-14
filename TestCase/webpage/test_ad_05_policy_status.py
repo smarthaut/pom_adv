@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/3/13 13:02
 # @Author  : huanghe
-# @Site    : 
+# @Site    :
 # @File    : test_ad_policy_status.py
 # @Software: PyCharm
 import unittest

@@ -104,16 +104,27 @@ class CreateMaterialForPicture(Basepage):
         self.logger.debug(u'找到"尺寸的高 "按钮.')
         return self.find_element('s=>input#sucai_dialog_create_input_size_height')
 
-    def select_weight(self, text):
+    '''def select_weight(self):
         self.logger = logging.getLogger(__name__)
-        self.logger.debug(u"点击'%s'" % text)
+        text = 30
         if text in [10, 30, 50, 70, 100]:
             self.driver.find_element_by_xpath(
-                '//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div[@class="select-status select-box"]/ul/li[text()="%s"]' % text).click()
+                '//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div[@class="select-status select-box"]/ul/li[3]').click()
         else:
             self.logger.error(u"输入权重错误！")
-        return None
+        return None'''
+    def select_weight(self):
+        self.logger = logging.getLogger(__name__)
+        return self.find_element('xpath=>//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div/div')
 
+    def select_num(self,text):
+        self.logger = logging.getLogger(__name__)
+        if text in [10,30,50,70,100]:
+            self.select_weight().click()
+            return self.find_element('xpath=>//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div/ul/li[text()=%s]' %text)
+        else:
+            self.logger.error(u'输入权重错误')
+            return self.find_element('xpath=>//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div/div')
     def receive_material_select_input(self):
         self.logger = logging.getLogger(__name__)
         self.logger.debug(u'找到"浏览"按钮.')
@@ -223,15 +234,18 @@ class CreateMaterialForVideo(Basepage):
         return self.find_element(
             'xpath=>//div[@class="sucai_dialog_create_size"]/input[@id="sucai_dialog_create_input_time_value"]')
 
-    def select_weight(self, text):
+    def select_weight(self):
         self.logger = logging.getLogger(__name__)
-        self.logger.debug(u"点击'%s'" % text)
-        if text in [10, 30, 50, 70, 100]:
-            self.driver.find_element_by_xpath(
-                '//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div[@class="select-status select-box"]/ul/li[text()="%s"]' % text).click()
+        return self.find_element('xpath=>//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div/div')
+
+    def select_num(self,text):
+        self.logger = logging.getLogger(__name__)
+        if text in [10,30,50,70,100]:
+            self.select_weight().click()
+            return self.find_element('xpath=>//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div/ul/li[text()=%s]' %text)
         else:
-            self.logger.error(u"输入权重错误！")
-        return None
+            self.logger.error(u'输入权重错误')
+            return self.find_element('xpath=>//div[@id="sucai_dialog_create_morenguanggaowei_select"]/div/div')
 
     def receive_material_select_input(self):
         self.logger = logging.getLogger(__name__)

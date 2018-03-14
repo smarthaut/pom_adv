@@ -58,6 +58,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_ad_postion_for_video.select_default_ad(u'默认广告')
         self.create_ad_postion_for_video.click_new_create_btn()
         self.create_ad_postion_for_video.get_windows_img()
+
     def test_create_tuwen_ad_position(self):
         now = time.strftime("%Y%m%d%H%M%S")
         #进入广告页面
@@ -76,6 +77,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_ad_postion_for_picture.select_default_ad(u'默认广告')
         self.create_ad_postion_for_picture.click_new_create_btn()
         self.create_ad_postion_for_picture.get_windows_img()
+
     def test_create_zimu_ad_position(self):
         now = time.strftime("%Y%m%d%H%M%S")
         #进入广告页面
@@ -89,7 +91,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_ad_postion_for_word = self.video_page.click_create_btn()
         sleep(0.5)
         self.create_ad_postion_for_word.click_upload()
-        os.system('D:/auit/upload01.exe')
+        os.system('D:/auit/upload.exe "D:\\pictures\\011.jpg"')
         sleep(5)
         self.create_ad_postion_for_word.switch_alert()
         self.create_ad_postion_for_word.set_value(self.create_ad_postion_for_word.receive_ad_position_id_input(), now)

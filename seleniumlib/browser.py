@@ -27,12 +27,3 @@ def Browser(driver_name='firefox', *args, **kwargs):
         return driver[0](executable_path=executable_path, *args, **kwargs)
     return driver[0](*args, **kwargs)
 
-
-def save_screenshot_file(driver, filename_prefix):
-    filename = filename_prefix + ".png"
-    abs_filename = os.path.join(r'D:\project\testreports\2015-10-12', filename)
-    if driver.save_screenshot(abs_filename):
-        print("<img src='%s'>" %filename)
-        return filename
-    else:
-        return ""
