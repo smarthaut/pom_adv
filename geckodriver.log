@@ -5321,3 +5321,697 @@ JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacente
 1520997546524	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1520997546767	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1520997546836	Marionette	INFO	New connections will no longer be accepted
+1521005106540	geckodriver	INFO	geckodriver 0.18.0
+1521005106582	geckodriver	INFO	Listening on 127.0.0.1:50157
+1521005108539	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521005113238	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521005116178	Marionette	INFO	Enabled via --marionette
+[GPU 27300] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521005133464	Marionette	INFO	Listening on port 50167
+[Child 28660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521005133806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521005133851	Marionette	INFO	Listening on port 50167
+1521005133923	Marionette	DEBUG	loaded listener.js
+1521005134407	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521005134590	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521005134590	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521005135225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521005135231	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521005138970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521005141346	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005142215	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005142539	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005143508	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005143518	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1521005464228	geckodriver	INFO	geckodriver 0.18.0
+1521005464238	geckodriver	INFO	Listening on 127.0.0.1:50348
+1521005466153	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521005466932	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521005467684	Marionette	INFO	Enabled via --marionette
+[Child 28060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521005475548	Marionette	INFO	Listening on port 50354
+1521005475555	Marionette	INFO	Listening on port 50354
+1521005475659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521005477104	Marionette	DEBUG	loaded listener.js
+1521005477256	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521005477277	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521005477277	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521005477683	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521005477699	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521005480180	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521005482626	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005483494	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005483756	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005484285	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005484295	Marionette	INFO	New connections will no longer be accepted
+1521005750219	geckodriver	INFO	geckodriver 0.18.0
+1521005750227	geckodriver	INFO	Listening on 127.0.0.1:50453
+1521005752209	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521005752993	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521005754183	Marionette	INFO	Enabled via --marionette
+[Parent 27856] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521005761015	Marionette	INFO	Listening on port 50460
+1521005761041	Marionette	INFO	Listening on port 50460
+1521005761752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521005763691	Marionette	DEBUG	loaded listener.js
+1521005785133	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521005808111	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521005808138	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521005808138	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521005808294	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521005808299	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521005835027	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521005838644	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005839556	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005839811	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005840393	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005840400	Marionette	INFO	New connections will no longer be accepted
+1521005906032	geckodriver	INFO	geckodriver 0.18.0
+1521005906045	geckodriver	INFO	Listening on 127.0.0.1:50549
+1521005907906	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521005909540	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521005910571	Marionette	INFO	Enabled via --marionette
+[GPU 27740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1780] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1780] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521005914681	Marionette	INFO	Listening on port 50555
+1521005914730	Marionette	INFO	Listening on port 50555
+1521005915383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521005915455	Marionette	DEBUG	loaded listener.js
+1521005915523	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521005915541	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521005915542	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521005915823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521005915831	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521005916525	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521005918848	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005919854	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005920114	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005920716	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521005920724	Marionette	INFO	New connections will no longer be accepted
+1521006655881	geckodriver	INFO	geckodriver 0.18.0
+1521006655891	geckodriver	INFO	Listening on 127.0.0.1:50862
+1521006657723	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521006658129	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521006658957	Marionette	INFO	Enabled via --marionette
+[GPU 13352] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521006663043	Marionette	INFO	Listening on port 50868
+1521006663061	Marionette	INFO	Listening on port 50868
+1521006663537	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521006663602	Marionette	DEBUG	loaded listener.js
+1521006663642	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521006663657	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521006663657	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521006664335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521006664719	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521006665723	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521006668054	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006669080	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006669341	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006679560	Marionette	INFO	New connections will no longer be accepted
+1521006691135	geckodriver	INFO	geckodriver 0.18.0
+1521006691144	geckodriver	INFO	Listening on 127.0.0.1:50940
+1521006693209	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521006694421	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521006695308	Marionette	INFO	Enabled via --marionette
+[GPU 28220] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521006699225	Marionette	INFO	Listening on port 50946
+1521006699249	Marionette	INFO	Listening on port 50946
+1521006699537	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521006699580	Marionette	DEBUG	loaded listener.js
+1521006699642	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521006699659	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521006699659	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521006700000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521006700004	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521006700785	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521006703254	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006704183	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006704560	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006705380	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006705388	Marionette	INFO	New connections will no longer be accepted
+1521006887973	geckodriver	INFO	geckodriver 0.18.0
+1521006887984	geckodriver	INFO	Listening on 127.0.0.1:51023
+1521006889825	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521006890840	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521006891933	Marionette	INFO	Enabled via --marionette
+[Child 15796] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15796] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521006896626	Marionette	INFO	Listening on port 51029
+1521006896768	Marionette	INFO	Listening on port 51029
+1521006897245	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521006897311	Marionette	DEBUG	loaded listener.js
+1521006897423	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521006897457	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521006897458	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521006897679	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521006897683	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521006898306	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521006900839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006901700	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006901957	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006902521	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521006902698	Marionette	INFO	New connections will no longer be accepted
+[GPU 24668] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 24668] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521010245916	geckodriver	INFO	geckodriver 0.18.0
+1521010245932	geckodriver	INFO	Listening on 127.0.0.1:51594
+1521010247972	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521010250283	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521010252364	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GPU 27764] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521010270435	Marionette	INFO	Listening on port 51601
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 153: TypeError: prefs is undefined
+1521010270446	Marionette	INFO	Listening on port 51601
+1521010270511	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[GPU 27764] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521011335115	geckodriver	INFO	geckodriver 0.18.0
+1521011335132	geckodriver	INFO	Listening on 127.0.0.1:51778
+1521011337137	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521011339566	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521011340715	Marionette	INFO	Enabled via --marionette
+[GPU 28408] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 28408] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 153: TypeError: prefs is undefined
+[Parent 27996] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 27996] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521011353406	Marionette	INFO	Listening on port 51784
+[Child 16752] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16752] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28324] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28324] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521011353420	Marionette	INFO	Listening on port 51784
+1521011353431	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:618:19
+observe@resource://gre/modules/AsyncShutdown.jsm:531:9
+addBlocker/moduleBlocker/<@jar:file:///D:/firefox55/omni.ja!/components/nsAsyncShutdown.js:155:15
+Promise@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:390:5
+moduleBlocker@jar:file:///D:/firefox55/omni.ja!/components/nsAsyncShutdown.js:151:29
+trigger@resource://gre/modules/AsyncShutdown.jsm:700:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:847:7
+wait@resource://gre/modules/AsyncShutdown.jsm:831:28
+observe@resource://gre/modules/AsyncShutdown.jsm:514:17
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521011853222	geckodriver	INFO	geckodriver 0.18.0
+1521011853239	geckodriver	INFO	Listening on 127.0.0.1:51898
+1521011855096	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521011856775	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521011857682	Marionette	INFO	Enabled via --marionette
+1521011864291	Marionette	INFO	Listening on port 51905
+1521011864407	Marionette	INFO	Listening on port 51905
+1521011864844	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521011864934	Marionette	DEBUG	loaded listener.js
+1521011888130	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521011888808	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521011888809	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521011889214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521011889223	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521011890529	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521011931718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521011948292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521011958436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521011983091	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521011995381	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521011997857	Marionette	INFO	New connections will no longer be accepted
+1521013225211	geckodriver	INFO	geckodriver 0.18.0
+1521013225221	geckodriver	INFO	Listening on 127.0.0.1:52058
+1521013227285	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521013230728	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521013231526	Marionette	INFO	Enabled via --marionette
+1521013237277	Marionette	INFO	Listening on port 52065
+1521013237306	Marionette	INFO	Listening on port 52065
+1521013237804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521013237851	Marionette	DEBUG	loaded listener.js
+1521013237899	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521013237958	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521013237959	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521013238415	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521013238420	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521013242951	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521013245947	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521013246877	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521013247136	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521013257424	Marionette	INFO	New connections will no longer be accepted
+1521014018292	geckodriver	INFO	geckodriver 0.18.0
+1521014018301	geckodriver	INFO	Listening on 127.0.0.1:52264
+1521014020202	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521014021898	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521014022901	Marionette	INFO	Enabled via --marionette
+[GPU 28396] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 26320] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521014027172	Marionette	INFO	Listening on port 52270
+1521014027216	Marionette	INFO	Listening on port 52270
+1521014027758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521014027826	Marionette	DEBUG	loaded listener.js
+1521014027869	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521014027888	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521014027888	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521014028185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521014028190	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521014029217	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521014031534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014032397	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014032640	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014033467	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014033555	Marionette	INFO	New connections will no longer be accepted
+1521014060233	geckodriver	INFO	geckodriver 0.18.0
+1521014060241	geckodriver	INFO	Listening on 127.0.0.1:52352
+1521014062298	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521014063504	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521014064284	Marionette	INFO	Enabled via --marionette
+[GPU 26456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521014068915	Marionette	INFO	Listening on port 52358
+1521014068923	Marionette	INFO	Listening on port 52358
+1521014069753	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521014069817	Marionette	DEBUG	loaded listener.js
+1521014069856	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521014069873	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521014069873	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521014070175	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521014070179	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521014070842	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521014073261	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014074111	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014074367	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014074903	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521014075022	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1521015421232	geckodriver	INFO	geckodriver 0.18.0
+1521015421252	geckodriver	INFO	Listening on 127.0.0.1:52550
+1521015422795	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521015425208	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521015428729	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GPU 16740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521015461409	Marionette	INFO	Listening on port 52563
+1521015461490	Marionette	INFO	Listening on port 52563
+1521015461925	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521015462271	Marionette	DEBUG	loaded listener.js
+1521015463073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521015463265	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521015463266	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521015464588	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521015464594	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521015468166	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521015471006	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521015472230	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521015472486	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521015473181	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521015473501	Marionette	INFO	New connections will no longer be accepted
+[GPU 16740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 16740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521016171981	geckodriver	INFO	geckodriver 0.18.0
+1521016171989	geckodriver	INFO	Listening on 127.0.0.1:52705
+1521016174042	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521016174495	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521016175376	Marionette	INFO	Enabled via --marionette
+[GPU 22388] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521016183562	Marionette	INFO	Listening on port 52711
+1521016183569	Marionette	INFO	Listening on port 52711
+1521016184060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521016184112	Marionette	DEBUG	loaded listener.js
+1521016184145	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521016184162	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521016184163	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521016184971	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521016184977	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521016185659	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521016188275	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521016189889	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521016190147	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521016200379	Marionette	INFO	New connections will no longer be accepted
+1521017777456	geckodriver	INFO	geckodriver 0.18.0
+1521017777465	geckodriver	INFO	Listening on 127.0.0.1:52943
+1521017779535	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521017782089	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521017783991	Marionette	INFO	Enabled via --marionette
+[GPU 27852] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521017807134	Marionette	INFO	Listening on port 52950
+[Child 14440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521017807707	Marionette	INFO	Listening on port 52950
+1521017808728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521017808804	Marionette	DEBUG	loaded listener.js
+1521017809728	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521017810028	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521017810029	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521017810684	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521017810689	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521017813732	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521017816258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521017817278	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521017817532	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521017818411	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521017818632	Marionette	INFO	New connections will no longer be accepted
+1521018887563	geckodriver	INFO	geckodriver 0.18.0
+1521018887577	geckodriver	INFO	Listening on 127.0.0.1:53167
+1521018889634	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521018891831	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521018893596	Marionette	INFO	Enabled via --marionette
+[GPU 25844] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521018912723	Marionette	INFO	Listening on port 53173
+1521018912831	Marionette	INFO	Listening on port 53173
+[Child 23764] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23764] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521018914122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521018914184	Marionette	DEBUG	loaded listener.js
+1521018915271	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521018915617	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521018915617	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521018916241	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521018916295	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521018922019	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521018924490	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521018925367	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521018925637	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521018926697	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521018926926	Marionette	INFO	New connections will no longer be accepted
+1521077835107	geckodriver	INFO	geckodriver 0.18.0
+1521077835141	geckodriver	INFO	Listening on 127.0.0.1:55375
+1521077837272	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521077840370	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521077844381	Marionette	INFO	Enabled via --marionette
+[GPU 28808] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521077858582	Marionette	INFO	Listening on port 55382
+1521077858879	Marionette	INFO	Listening on port 55382
+1521077859767	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521077859840	Marionette	DEBUG	loaded listener.js
+1521077860379	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521077860519	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521077860520	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521077861061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521077861065	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521077870490	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521077874450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521077875753	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521077876098	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521077886316	Marionette	INFO	New connections will no longer be accepted
+1521077983506	geckodriver	INFO	geckodriver 0.18.0
+1521077983518	geckodriver	INFO	Listening on 127.0.0.1:55511
+1521077985322	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521077986733	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521077987975	Marionette	INFO	Enabled via --marionette
+[GPU 18648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521078001564	Marionette	INFO	Listening on port 55518
+1521078001596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521078001635	Marionette	INFO	Listening on port 55518
+[Child 24832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521078007475	Marionette	DEBUG	loaded listener.js
+1521078007647	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521078007681	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521078007681	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521078008046	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521078008052	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521078011785	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521078014125	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078014991	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078015789	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078016443	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078016561	Marionette	INFO	New connections will no longer be accepted
+1521078135639	geckodriver	INFO	geckodriver 0.18.0
+1521078135648	geckodriver	INFO	Listening on 127.0.0.1:55616
+1521078137421	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521078138961	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521078139952	Marionette	INFO	Enabled via --marionette
+[GPU 3068] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 28756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24592] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24592] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521078148205	Marionette	INFO	Listening on port 55622
+1521078148212	Marionette	INFO	Listening on port 55622
+1521078149087	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521078150687	Marionette	DEBUG	loaded listener.js
+1521078150757	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521078151040	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521078151041	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521078151429	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521078151434	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521078154679	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521078157014	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078157962	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078158715	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078159301	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078159397	Marionette	INFO	New connections will no longer be accepted
+1521078238053	geckodriver	INFO	geckodriver 0.18.0
+1521078238062	geckodriver	INFO	Listening on 127.0.0.1:55713
+1521078240113	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521078241088	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521078242021	Marionette	INFO	Enabled via --marionette
+[GPU 29460] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521078245676	Marionette	INFO	Listening on port 55719
+1521078245705	Marionette	INFO	Listening on port 55719
+1521078245984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521078246062	Marionette	DEBUG	loaded listener.js
+1521078246184	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521078246398	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521078246398	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521078247464	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521078247545	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521078248350	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078250692	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521078251514	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078252308	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:290:7
+element.find/</findElements<@chrome://marionette/content/element.js:256:17
+evalFn@chrome://marionette/content/wait.js:70:7
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:290:7
+element.find/</findElements<@chrome://marionette/content/element.js:256:17
+evalFn@chrome://marionette/content/wait.js:70:7
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:641:3
+sendError@chrome://marionette/content/listener.js:675:3
+dispatch/</<@chrome://marionette/content/listener.js:443:40
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:925:21
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+1521078259284	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521078278272	geckodriver	INFO	geckodriver 0.18.0
+1521078278285	geckodriver	INFO	Listening on 127.0.0.1:55791
+1521078279845	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521078281837	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521078282783	Marionette	INFO	Enabled via --marionette
+[GPU 29184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521078286914	Marionette	INFO	Listening on port 55797
+1521078286966	Marionette	INFO	Listening on port 55797
+1521078287243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521078287287	Marionette	DEBUG	loaded listener.js
+1521078287347	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521078287572	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521078287572	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521078287763	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521078287767	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521078288597	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521078290888	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078291726	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078292515	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078293066	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078293166	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1521078861445	geckodriver	INFO	geckodriver 0.18.0
+1521078861457	geckodriver	INFO	Listening on 127.0.0.1:55923
+1521078863582	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521078864073	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521078865037	Marionette	INFO	Enabled via --marionette
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1521078869395	Marionette	INFO	Listening on port 55929
+1521078869437	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521078869518	Marionette	DEBUG	loaded listener.js
+1521078869575	Marionette	INFO	Listening on port 55929
+1521078869577	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521078869682	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521078869683	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521078870018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521078870024	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521078870730	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521078873326	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078874227	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078874984	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078875581	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521078875681	Marionette	INFO	New connections will no longer be accepted
+1521079465841	geckodriver	INFO	geckodriver 0.18.0
+1521079465858	geckodriver	INFO	Listening on 127.0.0.1:56100
+1521079467358	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521079469560	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521079470806	Marionette	INFO	Enabled via --marionette
+1521079479070	Marionette	INFO	Listening on port 56106
+1521079479256	Marionette	INFO	Listening on port 56106
+1521079479664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521079479745	Marionette	DEBUG	loaded listener.js
+1521079479934	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521079480398	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521079480398	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521079480942	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521079480949	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521079485816	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521079488260	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079489105	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079489849	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079490630	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079491168	Marionette	INFO	New connections will no longer be accepted
+1521079587968	geckodriver	INFO	geckodriver 0.18.0
+1521079587983	geckodriver	INFO	Listening on 127.0.0.1:56198
+1521079589808	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521079590509	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521079591323	Marionette	INFO	Enabled via --marionette
+[Child 25064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521079596228	Marionette	INFO	Listening on port 56204
+1521079596248	Marionette	INFO	Listening on port 56204
+1521079597163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521079597219	Marionette	DEBUG	loaded listener.js
+1521079597265	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521079597287	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521079597287	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521079597880	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521079597885	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521079598669	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521079601002	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079601870	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079602615	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079603241	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079603328	Marionette	INFO	New connections will no longer be accepted
+1521079975974	geckodriver	INFO	geckodriver 0.18.0
+1521079975984	geckodriver	INFO	Listening on 127.0.0.1:56363
+1521079977863	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521079978887	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521079980266	Marionette	INFO	Enabled via --marionette
+[GPU 27716] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521079986312	Marionette	INFO	Listening on port 56370
+1521079986327	Marionette	INFO	Listening on port 56370
+1521079987334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521079987394	Marionette	DEBUG	loaded listener.js
+1521079988629	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521079989497	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521079989497	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521079990540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521079990544	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521079993429	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521079995839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079996717	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079997480	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079998094	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521079998247	Marionette	INFO	New connections will no longer be accepted
+1521080111017	geckodriver	INFO	geckodriver 0.18.0
+1521080111026	geckodriver	INFO	Listening on 127.0.0.1:56462
+1521080112558	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1521080113646	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1521080115787	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+1521080146385	Marionette	INFO	Listening on port 56468
+1521080146422	Marionette	INFO	Listening on port 56468
+1521080147329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521080147384	Marionette	DEBUG	loaded listener.js
+1521080147417	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521080147432	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521080147432	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1521080147816	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1521080147824	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1521080148882	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521080151207	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1521080152052	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521080152810	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521080153481	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1521080153572	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown

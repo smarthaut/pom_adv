@@ -49,6 +49,7 @@ class Basepage(object):
         file_path = 'D:/python/pom_adv/report/screenshots/'
         rq = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
         screen_name = file_path + rq + '.png'
+        print(screen_name)
         try:
             self.driver.get_screenshot_as_file(screen_name)
             self.logger.info("Had take screenshot and save to folder : /screenshots")

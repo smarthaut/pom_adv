@@ -34,7 +34,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.driver.quit()
 
 #创建图片素材
-    def test_create_mpicture_materia(self):
+    '''def test_create_mpicture_materia(self):
         now = time.strftime("%Y%m%d%H%M%S")
         #进入广告页面
         sleep(2)
@@ -87,7 +87,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_mvideo_materia_page.click_confirm_btn()
         sleep(10)
         self.mvideo_page.switch_alert()
-        self.mvideo_page.get_windows_img()
+        self.mvideo_page.get_windows_img()'''
 
 
 #创建字幕素材
@@ -100,6 +100,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         sleep(0.5)
         self.ad_materia_page.rec_mword_btn()
         self.mword_page = self.ad_materia_page.click_mword_btn()
+        sleep(0.5)
         self.create_mword_materia_page = self.mword_page.click_create_btn()
         self.create_mword_materia_page.set_value(self.create_mword_materia_page.receive_material_name_input()
                                                  ,text=(now + '字幕素材'))
@@ -107,6 +108,7 @@ class AquaPaasAdvTest(unittest.TestCase):
                                                  ,text=u'日前，从全省住房和城乡建设工作会议上获悉，今年起我省将实施棚户区改造三年攻坚计划，2018、2019年集中攻坚，2020年扫尾。今年我省棚户区改造开工建设23万套，省政府将与各市签订目标责任书，'
                                                        u'大力推进棚改开工任务落实，同时抓好往年棚改项目竣工入住')
         self.create_mword_materia_page.click_confirm_btn()
+        self.ad_materia_page.get_windows_img()
 
 
     if __name__ == '__main':

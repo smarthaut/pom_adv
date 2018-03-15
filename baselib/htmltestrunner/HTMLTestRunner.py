@@ -383,6 +383,7 @@ table       { font-size: 30px; }
     <td>失败</td>
     <td>错误</td>
     <td>详细</td>
+    <td>截图</td>
 </tr>
 %(test_list)s
 <tr id='total_row' class="text-center active">
@@ -392,6 +393,7 @@ table       { font-size: 30px; }
     <td>%(fail)s</td>
     <td>%(error)s</td>
     <td>通过率：%(passrate)s</td>
+    <td><a href="" target="_blank"></a></td>
 </tr>
 </table>
 """ # variables: (test_list, count, Pass, fail, error ,passrate)
@@ -424,6 +426,9 @@ table       { font-size: 30px; }
     </pre>
     </div>
     </td>
+    <td align='center'>
+    <a %(hidde)s href="%(image)s">picture_short</a>
+    </td>
 </tr>
 """ # variables: (tid, Class, style, desc, status)
 
@@ -432,6 +437,9 @@ table       { font-size: 30px; }
 <tr id='%(tid)s' class='%(Class)s'>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
     <td colspan='5' align='center'><span class="label label-success success">%(status)s</span></td>
+    <td align='center'>
+    <a  %(hidde)s  href="%(image)s">picture_shot</a>
+    </td>
 </tr>
 """ # variables: (tid, Class, style, desc, status)
 
@@ -706,10 +714,13 @@ class HTMLTestRunner(Template_mixin):
 
 
     def _generate_report_test(self, rows, cid, tid, n, t, o, e):
+        #o print的内容
+        #e 抛出的异常信息
         # e.g. 'pt1.1', 'ft1.1', etc
         has_output = bool(o or e)
         # ID修改点为下划线,支持Bootstrap折叠展开特效 - Findyou
         tid = (n == 0 and 'p' or 'f') + 't%s_%s' % (cid+1,tid+1)
+        #tid = '%s_%s' % (cid+1,tid+1)
         name = t.id().split('.')[-1]
         doc = t.shortDescription() or ""
         desc = doc and ('%s: %s' % (name, doc)) or name
@@ -736,6 +747,16 @@ class HTMLTestRunner(Template_mixin):
             id = tid,
             output = saxutils.escape(uo+ue),
         )
+        # 插入图片
+        unum = str(uo).find('screenshots')
+
+        if (uo and unum != -1):
+            hidde_status = ''
+
+            image_url = 'file:///D:/python/pom_adv/report/screenshots' + str(uo)[unum + 11:unum + 36].replace(' ', '')
+        else:
+            hidde_status = '''hidden="hidden"'''
+            image_url = ''
 
         row = tmpl % dict(
             tid = tid,
@@ -743,6 +764,8 @@ class HTMLTestRunner(Template_mixin):
             style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'passCase'),
             desc = desc,
             script = script,
+            hidde = hidde_status,
+            image = image_url,
             status = self.STATUS[n],
         )
         rows.append(row)
