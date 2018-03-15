@@ -34,7 +34,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.driver.quit()
 
 #创建图片素材
-    '''def test_create_mpicture_materia(self):
+    def test_create_mpicture_materia(self):
         now = time.strftime("%Y%m%d%H%M%S")
         #进入广告页面
         sleep(2)
@@ -87,7 +87,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_mvideo_materia_page.click_confirm_btn()
         sleep(10)
         self.mvideo_page.switch_alert()
-        self.mvideo_page.get_windows_img()'''
+        self.mvideo_page.get_windows_img()
 
 
 #创建字幕素材

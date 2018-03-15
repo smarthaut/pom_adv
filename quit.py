@@ -29,7 +29,10 @@ cid = 0
 tid = 0
 tid = (n == 0 and 'p' or 'f')
 print(tid)'''
-uo = 'D:/python/pom_adv/report/screenshots/20180315095435.png'
+'''uo = 'D:/python/pom_adv/report/screenshots/20180315095435.png'
 unum = uo.find('screenshots')
 image_url = 'D:/python/pom_adv/report/screenshot' + str(uo)[unum + 11:unum + 36].replace(' ', '')
-print(image_url)
+print(image_url)'''
+
+s = 'ft1_1'
+print(s[2:])

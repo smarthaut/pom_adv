@@ -11,12 +11,14 @@ import time
 #sys.path.append('./interface')
 #sys.path.append('./db_mongodb')
 from baselib.htmltestrunner.HTMLTestRunner import HTMLTestRunner
+#接口
+#from baselib.htmltestrunner.HTMLTestRunner_in import HTMLTestRunner
 import unittest
 
 #test_dir = './TestCase/interface'
+
 test_dir = './TestCase/webpage'
-#
-discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_ad_02_materia.py')
+discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_ad_03_*')
 
 
 if __name__ == '__main__':

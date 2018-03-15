@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2017/12/28 11:43
-# @Author  : huanghe
-# @Site    : 
-# @File    : HTMLTestRunner.py
-# @Software: PyCharm
 #coding=utf-8
 """
 A TestRunner for use with the Python unit testing framework. It
@@ -194,7 +187,7 @@ class Template_mixin(object):
 
     DEFAULT_TITLE = '单元测试报告'
     DEFAULT_DESCRIPTION = ''
-    DEFAULT_TESTER='QAHE'
+    DEFAULT_TESTER='最棒QA'
 
     # ------------------------------------------------------------------------
     # HTML Template
@@ -315,8 +308,8 @@ function html_escape(s) {
 
     STYLESHEET_TMPL = """
 <style type="text/css" media="screen">
-body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 30px; font-size: 10px; }
-table       { font-size: 30px; }
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 80%; }
+table       { font-size: 100%; }
 
 /* -- heading ---------------------------------------------------------------------- */
 .heading {
@@ -437,8 +430,6 @@ table       { font-size: 30px; }
 
     REPORT_TEST_OUTPUT_TMPL = r"""
 %(id)s: %(output)s
-<img %(hidde)s src="%(image)s" alt="picture_shot" height="200" width="400"></img>
-<a  %(hidde)s  href="%(image)s">picture_shot</a>
 """ # variables: (id, output)
 
     # ------------------------------------------------------------------------
@@ -708,13 +699,10 @@ class HTMLTestRunner(Template_mixin):
 
 
     def _generate_report_test(self, rows, cid, tid, n, t, o, e):
-        #o print的内容
-        #e 抛出的异常信息
         # e.g. 'pt1.1', 'ft1.1', etc
         has_output = bool(o or e)
         # ID修改点为下划线,支持Bootstrap折叠展开特效 - Findyou
         tid = (n == 0 and 'p' or 'f') + 't%s_%s' % (cid+1,tid+1)
-        #tid = '%s_%s' % (cid+1,tid+1)
         name = t.id().split('.')[-1]
         doc = t.shortDescription() or ""
         desc = doc and ('%s: %s' % (name, doc)) or name
@@ -737,23 +725,9 @@ class HTMLTestRunner(Template_mixin):
         else:
             ue = e
 
-        # 插入图片
-        unum = str(uo).find('screenshots')
-
-        if (uo and unum != -1):
-            hidde_status = ''
-            image_url = 'file:///'+uo
-            #image_url = 'file:///D:/python/pom_adv/report/screenshots' + str(uo)[unum + 11:unum + 36].replace(' ', '')
-        else:
-            hidde_status = '''hidden="hidden"'''
-            image_url = ''
-
         script = self.REPORT_TEST_OUTPUT_TMPL % dict(
-            id = tid[2:],
-            #output = saxutils.escape(uo+ue),
-            output = saxutils.escape(ue),
-            hidde=hidde_status,
-            image=image_url,
+            id = tid,
+            output = saxutils.escape(uo+ue),
         )
 
         row = tmpl % dict(
@@ -762,8 +736,6 @@ class HTMLTestRunner(Template_mixin):
             style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'passCase'),
             desc = desc,
             script = script,
-            hidde = hidde_status,
-            image = image_url,
             status = self.STATUS[n],
         )
         rows.append(row)
