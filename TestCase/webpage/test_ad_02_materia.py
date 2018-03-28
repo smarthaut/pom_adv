@@ -10,6 +10,7 @@ import os,sys
 from baselib.logging.pylogging import setup_logging
 from seleniumlib.browser import Browser
 from zq_lib.AquaPassAdv.login_page import LoginPage
+from baselib.config.config import Config
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parentdir)
 from time import sleep
@@ -21,11 +22,10 @@ class AquaPaasAdvTest(unittest.TestCase):
     def setUp(self):
         self.driver = Browser(timeout=60)
         login_page = LoginPage(self.driver)
-        login_page.url='http://10.50.4.115:8080/paasadv/'
-        login_page.visit()
+        login_page.url=Config().get('URL')
         login_page.wait(10)
-        login_page.set_value(element=login_page.rec_user_input(),text="root")
-        login_page.set_value(element=login_page.rec_passwd_input(),text="123")
+        login_page.set_value(element=login_page.rec_user_input(),text=Config().get('USER'))
+        login_page.set_value(element=login_page.rec_passwd_input(),text=Config().get('PASSWORD'))
         login_page.click_login_btn()
         self.first_page = login_page.get_first_page()
 
@@ -47,7 +47,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_mpicture_materia_page = self.mpicture_page.click_create_btn()
         sleep(0.5)
         self.create_mpicture_materia_page.click_upload()
-        os.system('D:/auit/upload.exe "D:\\pictures\\012.jpg"')
+        os.system('D:/auit/upload.exe "D:\\pictures\\022.jpg"')
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_material_name_input(), text=(now + '图片素材'))
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_sucai_width_input(), "123")
         self.create_mpicture_materia_page.set_value(self.create_mpicture_materia_page.receive_sucai_height_input(), "123")
@@ -73,7 +73,7 @@ class AquaPaasAdvTest(unittest.TestCase):
         self.create_mvideo_materia_page = self.mvideo_page.click_create_btn()
         sleep(0.5)
         self.create_mvideo_materia_page.click_upload()
-        os.system('D:/auit/upload.exe "D:\\pictures\\video\\005.ts"')
+        os.system('D:/auit/upload.exe "D:\\pictures\\video\\008.ts"')
         sleep(5)
         self.create_mvideo_materia_page.set_value(self.create_mvideo_materia_page.receive_material_name_input()
                                                   ,text=(now + '视频素材'))

@@ -7,7 +7,6 @@
 # @Software: PyCharm
 import time
 from selenium.common.exceptions import NoSuchElementException
-import os.path
 import logging
 
 class Basepage(object):
@@ -40,8 +39,6 @@ class Basepage(object):
         except NameError as e:
             print('Failed to close')
 
-        def visit(self):
-            self.driver.get(self.url)
 
     # 保存图片
     def get_windows_img(self):
@@ -154,8 +151,6 @@ class Basepage(object):
         self.logger.info("Current page title is %s" % self.driver.title)
         return self.driver.title
 
-    def visit(self):
-        self.driver.get(self.url)
 
     @staticmethod
     def sleep(self,seconds):

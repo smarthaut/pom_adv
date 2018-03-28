@@ -9,6 +9,7 @@ import unittest
 import os, sys
 from baselib.logging.pylogging import setup_logging
 from seleniumlib.browser import Browser
+from baselib.config.config import Config
 from zq_lib.AquaPassAdv.login_page import LoginPage
 
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,11 +24,10 @@ class AquaPaasAdvTest(unittest.TestCase):
     def setUp(self):
         self.driver = Browser(timeout=60)
         login_page = LoginPage(self.driver)
-        login_page.url = 'http://10.50.4.115:8080/paasadv/'
-        login_page.visit()
+        login_page.url = Config().get('URL')
         login_page.wait(10)
-        login_page.set_value(element=login_page.rec_user_input(), text="root")
-        login_page.set_value(element=login_page.rec_passwd_input(), text="123")
+        login_page.set_value(element=login_page.rec_user_input(),text=Config().get('USER'))
+        login_page.set_value(element=login_page.rec_passwd_input(),text=Config().get('PASSWORD'))
         login_page.click_login_btn()
         self.first_page = login_page.get_first_page()
 
@@ -53,7 +53,7 @@ class AquaPaasAdvTest(unittest.TestCase):
 
         sleep(0.5)
         self.create_policy_image_page.set_value(self.create_policy_image_page.rec_validtime_begin()
-                                                , text='2016-03-01')
+                                                , text='2015-03-01')
         self.create_policy_image_page.set_value(self.create_policy_image_page.rec_validtime_end()
                                                 , text='2019-03-02')
         self.choose_tag_page = self.create_policy_image_page.choose_channel_tag()
@@ -88,9 +88,9 @@ class AquaPaasAdvTest(unittest.TestCase):
 
         sleep(0.5)
         self.create_policy_video_page.set_value(self.create_policy_video_page.rec_validtime_begin()
-                                                , text='2015-03-01')
-        self.create_policy_video_page.set_value(self.create_policy_video_page.rec_validtime_end()
                                                 , text='2017-03-01')
+        self.create_policy_video_page.set_value(self.create_policy_video_page.rec_validtime_end()
+                                                , text='2017-03-09')
         self.choose_tag_page = self.create_policy_video_page.choose_channel_tag()
         self.choose_tag_page.choose_select()
         self.choose_tag_page.click_confirm_select_dialog_btn()
@@ -121,7 +121,7 @@ class AquaPaasAdvTest(unittest.TestCase):
 
         sleep(0.5)
         self.create_policy_word_page.set_value(self.create_policy_word_page.rec_validtime_begin()
-                                               , text='2013-03-01')
+                                               , text='2003-03-01')
         self.create_policy_word_page.set_value(self.create_policy_word_page.rec_validtime_end()
                                                , text='2014-03-01')
         self.choose_tag_page = self.create_policy_word_page.choose_channel_tag()

@@ -710,8 +710,11 @@ class HTMLTestRunner(Template_mixin):
     def _generate_report_test(self, rows, cid, tid, n, t, o, e):
         #o print的内容
         #e 抛出的异常信息
+        #t 具体的测试用例情况
         # e.g. 'pt1.1', 'ft1.1', etc
         has_output = bool(o or e)
+        #当有print输入或者有异常抛出时都采用REPORT_TEST_WITH_OUTPUT_TMPL
+        #has_output = bool(o and e)
         # ID修改点为下划线,支持Bootstrap折叠展开特效 - Findyou
         tid = (n == 0 and 'p' or 'f') + 't%s_%s' % (cid+1,tid+1)
         #tid = '%s_%s' % (cid+1,tid+1)

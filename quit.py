@@ -24,15 +24,13 @@ print(getattr(Tom,'name'))'''
 '''fruit = ['apple','orange','banana']
 for m,n in enumerate(fruit):
     print(m,n)'''
-'''n =1
+n =1
 cid = 0
 tid = 0
 tid = (n == 0 and 'p' or 'f')
-print(tid)'''
+print(tid)
 '''uo = 'D:/python/pom_adv/report/screenshots/20180315095435.png'
 unum = uo.find('screenshots')
 image_url = 'D:/python/pom_adv/report/screenshot' + str(uo)[unum + 11:unum + 36].replace(' ', '')
 print(image_url)'''
 
-s = 'ft1_1'
-print(s[2:])

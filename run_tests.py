@@ -18,7 +18,7 @@ import unittest
 #test_dir = './TestCase/interface'
 
 test_dir = './TestCase/webpage'
-discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_ad_03_*')
+discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_ad_*.py')
 
 
 if __name__ == '__main__':
